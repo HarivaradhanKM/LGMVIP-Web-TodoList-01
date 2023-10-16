@@ -1,51 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
 .todos-bg-container {
-  background-color: #f9fbfe;
+  background-color: #f5f5dc;
   height: 100vh;
 }
 
 .top-card {
   background-color: #d993ec;
-  padding-top: 0px;
-  padding-right: 10px;
-  padding-bottom: 0px;
-  padding-left: 10px;
+  padding: 0px 10px;
   margin: 35px;
 }
 .todos-heading {
-  text-align: center;
-  font-family: "Bree Serif";
-  font-style: italic;
-  text-decoration: underline;
-  font-size: 46px;
-  font-weight: bold;
   margin-top: 20px;
   margin-bottom: 20px;
+  font: bold italic 50px Bree Serif;
+  text-decoration: underline;
+  text-align: center;
 }
 
 .create-task-heading {
-  font-family: "Roboto";
-  font-size: 32px;
-  font-weight: 700;
+  font: 700 32px Roboto;
 }
 
 .create-task-heading-subpart {
-  font-family: "Roboto";
-  font-size: 32px;
-  font-weight: 500;
+  font: 500 32px Roboto;
 }
 
 .todo-items-heading {
-  font-family: "Roboto";
-  font-size: 32px;
-  font-weight: 700;
+  font: 700 32px Roboto;
 }
 
 .todo-items-heading-subpart {
-  font-family: "Roboto";
-  font-size: 32px;
-  font-weight: 500;
+  font: 500 32px Roboto;
 }
 
 .todo-items-container {
@@ -58,11 +44,9 @@
 }
 
 .todo-user-input {
-  background-color: white;
+  background-color: #fff;
   width: 100%;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #e4e7eb;
+  border: 1px solid #e4e7eb;
   border-radius: 10px;
   margin-top: 10px;
   padding: 15px;
@@ -71,30 +55,24 @@
 .button {
   color: #fff;
   background-color: #ffa500;
-  font-family: "Roboto";
-  font-size: 18px;
+  font: 18px Roboto;
   border-width: 0;
   border-radius: 4px;
   margin-top: 20px;
   margin-bottom: 50px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding: 5px 20px;
 }
 
 .bottom-card {
   background-color: gray;
- padding: 20px 15px;
+  padding: 20px 15px;
   margin: 35px;
 }
 
 .label-container {
   background-color: #e6f6ff;
   width: 100%;
-  border-style: solid;
-  border-width: 5px;
-  border-color: #096f92;
+  border-left: 5px solid #096f92;
   border-right: none;
   border-top: none;
   border-bottom: none;
@@ -109,15 +87,10 @@
 }
 
 .checkbox-label {
-  font-family: "Roboto";
-  font-size: 16px;
-  font-weight: 400;
+  font: 400 16px Roboto;
   width: 82%;
   margin: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 10px 20px;
   border-radius: 5px;
 }
 
